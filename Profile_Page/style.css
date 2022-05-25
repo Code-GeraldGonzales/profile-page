@@ -1,0 +1,316 @@
+#main-container {
+    margin: 0% auto;
+}
+/* This is the CSS for the nav bar */
+.nav {
+    width: 950px;
+    background-color: rgb(88, 87, 87);
+    margin: 0px auto;
+    padding: 1px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-title {
+    color: white;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: 1rem;
+}
+.nav-links {
+    align-items: center;
+    list-style: none;
+    display: flex;
+    margin-right: 1rem;
+    justify-content: space-around;
+    flex: .55;
+}
+
+.btn {
+    border-width: 2;
+    border-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 10px;
+    background-color: #2e61fa;
+    padding: 5px 30px;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
+    }
+
+a:link {
+    color: rgb(165, 162, 162);
+    text-decoration: none;
+    }
+
+a:hover, a:active {
+        color: rgb(120, 119, 119);
+    }
+
+body {
+    font-family: "Roboto", sans-serif;
+    }
+
+/* This is the end of the nav bar */
+
+/* This is the jane doe upper left box1 */
+
+.box1{
+    width: 550px;
+    height: 375px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+    border: 2px solid;
+    border-color: rgb(173, 174, 174);
+    position: absolute; 
+    top: 120px;
+    left: 457px
+}
+
+.top {
+    height: 125px;
+    background-color: rgb(113, 202, 250);
+    border-bottom: 2px solid;
+    border-color: rgb(173, 174, 174);
+}
+
+.user-circle {
+    height: 100px;
+    margin-top: 75px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+
+.info {
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.seattle {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.edit {
+    font-size: 15px;
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.map-marker, .gear {
+    height: 15px;
+    padding-right: 5px;
+    
+}
+
+.name {
+    font-size: 45px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+.gear {
+    color: #2e61fa;
+}
+
+/* This is the end box1 */
+
+/* This is the education box lower left box2 */
+
+.box2{
+    width: 550px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+    border: 2px solid;
+    border-color: rgb(173, 174, 174);
+    position: absolute; 
+    top: 530px;
+    left: 457px
+}
+
+.top2 {
+    height: 80px;
+    background-color: rgb(48, 48, 48);
+    border-bottom: 2px solid;
+    border-color: rgb(173, 174, 174);
+    font-size: 25px;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.edu {
+    font-size: 25px;
+    color: white;
+}
+
+.coding {
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.date {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    color:rgb(124, 123, 123)
+}
+
+.triple {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    color:rgb(48, 48, 48)
+}
+
+.edit {
+    font-size: 15px;
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.name {
+    font-size: px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+/* This is the end of box2 */
+/* This is requests box upper right box3 */
+.box3{
+    width: 356px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+    border: 2px solid;
+    border-color: rgb(173, 174, 174);
+    position: absolute; 
+    top: 120px;
+    left: 1050px
+}
+
+.top3 {
+    height: 50px;
+    background-color: rgb(48, 48, 48);
+    border-bottom: 2px solid;
+    border-color: rgb(173, 174, 174);
+    font-size: 25px;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.two-button {
+    border-width: 0;
+    border-color: rgb(112, 113, 112);
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    background-color: #5f6060;
+    padding: 8px 14px;
+}
+
+.p-class-box3 {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+
+}
+
+.requests {
+    margin: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    right: 20px;
+}
+/* This is the end box3 */
+/* This is the connections box lower right box4 */
+.box4{
+    width: 356px;
+    height: 395px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+    border: 2px solid;
+    border-color: rgb(173, 174, 174);
+    position: absolute; 
+    top: 355px;
+    left: 1050px
+}
+
+.top4 {
+    height: 50px;
+    background-color: rgb(48, 48, 48);
+    border-bottom: 2px solid;
+    border-color: rgb(173, 174, 174);
+    font-size: 25px;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.five-button {
+    border-width: 0;
+    border-color: rgb(112, 113, 112);
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    background-color: #5f6060;
+    padding: 8px 14px;
+}
+.p-class-box4 {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+
+}
+.connection {
+    margin: 15px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 5px;
+}
+
+.names {
+    margin-top: 15px;
+    font-size: 20px;
+    position: relative;
+    flex-direction: column;
+    left: 100px;
+    top: -300px;
+    padding: 6px;
+    
+}
+.bottom4 {
+    height: 35px;
+    border-top: 2px solid;
+    border-color: rgb(173, 174, 174);
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    text-decoration: underline;
+    
+}
+
